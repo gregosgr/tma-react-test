@@ -1,16 +1,15 @@
 {
   "files": {
     "main.css": "/tma-react-test/static/css/main.073c9b0a.css",
-    "main.js": "/tma-react-test/static/js/main.12b00ba6.js",
+    "main.js": "/tma-react-test/static/js/main.e365e0a0.js",
     "static/js/787.e63bc80f.chunk.js": "/tma-react-test/static/js/787.e63bc80f.chunk.js",
-    "static/media/logo.svg": "/tma-react-test/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tma-react-test/index.html",
     "main.073c9b0a.css.map": "/tma-react-test/static/css/main.073c9b0a.css.map",
-    "main.12b00ba6.js.map": "/tma-react-test/static/js/main.12b00ba6.js.map",
+    "main.e365e0a0.js.map": "/tma-react-test/static/js/main.e365e0a0.js.map",
     "787.e63bc80f.chunk.js.map": "/tma-react-test/static/js/787.e63bc80f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.12b00ba6.js"
+    "static/js/main.e365e0a0.js"
   ]
 }
