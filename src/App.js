@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './App.css';
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -23,22 +22,26 @@ function App() {
   };
 
   return (
-    <div className="App">
-      <h1>Minimal Todo List</h1>
+    <div className="flex flex-col justify-center items-center bg-gray-200">
       <div>
-        <input
+      <h1 className=" text-3xl font-bold ">Minimal Todo List</h1>
+      </div>
+      <div>
+      
+
+        <input className='shadow appearance-none border rounded py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline'
           type="text"
           value={task}
           onChange={handleInputChange}
           placeholder="Enter a task..."
         />
-        <button onClick={handleAddTodo}>Add</button>
+        <button className='bg-green-500 hover:bg-green-700 text-white font-bold py-1 px-4 rounded' onClick={handleAddTodo}>Add</button>
       </div>
-      <ul>
+      <ul className="divide-y divide-gray-100">
         {todos.map((todo, index) => (
-          <li key={index}>
-            {todo}{' '}
-            <button onClick={() => handleDeleteTodo(index)}>Delete</button>
+          <li className="flex items-stretch gap-x-6 py-5 flex-row" key={index}>
+            <p className='text-sm font-semibold leading-6 text-gray-900 py-1'>{todo}{' '}</p>
+            <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 rounded ' onClick={() => handleDeleteTodo(index)}>Delete</button>
           </li>
         ))}
       </ul>
